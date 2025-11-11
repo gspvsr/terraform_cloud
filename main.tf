@@ -10,5 +10,5 @@ variable "region" {
 
 resource "aws_instance" "dev_instance" {
     ami = "ami-0a627a85fdcfabbaa"
-    instance_type = "t3.micro"
+    instance_type = "t2.micro"
 }
