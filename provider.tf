@@ -4,7 +4,7 @@ terraform {
     organization = "UALR" 
 
     workspaces { 
-      name = "Test" 
+      name = "terraform_cloud" 
     } 
   } 
 }
